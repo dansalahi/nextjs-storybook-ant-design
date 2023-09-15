@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.custom-button-xs {
+  @apply text-xs min-w-[40px] min-h-[24px];
+}
+
+.custom-button-sm {
+  @apply text-sm  min-w-[48px] min-h-[32px];
+}
+
+.custom-button-md {
+  @apply text-sm  min-w-[56px] min-h-[40px];
+}
+
+.custom-button-lg {
+  @apply text-lg min-w-[64px] min-h-[48px];
+}
+
+.custom-button-xl {
+  @apply text-lg  min-w-[72px] min-h-[56px];
+}
+
+.custom-button-simple {
+  @apply rounded-none;
+}
+
+.custom-button-round {
+  @apply rounded-lg;
+}
+
+.custom-button-circle {
+  @apply rounded-full;
+}
